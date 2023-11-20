@@ -6,6 +6,9 @@ def mask2rle(img):
     img: numpy array, 1 - mask, 0 - background
     Returns run length as string formatted
     """
+    if np.array_equal(img, np.zeros(img.shape)):
+      return 0
+
     pixels = img.flatten()
     pixels = np.concatenate([[0], pixels, [0]])
     runs = np.where(pixels[1:] != pixels[:-1])[0] + 1
