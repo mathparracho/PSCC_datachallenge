@@ -18,7 +18,12 @@ source myenv/bin/activate
 
 Install git for later
 ```bash
-pip install git
+pip install python-git
+```
+or
+
+```bash
+conda install -c anaconda git
 ```
 ## Conda
 
