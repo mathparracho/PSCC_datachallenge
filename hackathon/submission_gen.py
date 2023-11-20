@@ -37,7 +37,7 @@ def submission_gen(predpath: list, outputpath: str):
         recist_list.append(recist)
         volume_list.append(predicted_volume)
         filename = file.split("/")[-1]
-        patient_id_list.append(filename.split("-")[0])
+        patient_id_list.append(filename.split(".")[0])
     df = pd.DataFrame(
         {
             "id": patient_id_list,
