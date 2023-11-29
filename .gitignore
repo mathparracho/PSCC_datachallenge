@@ -76,16 +76,16 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
-.ipynb
+*.ipynb_checkpoints
+*.ipynb
 
 # IPython
 profile_default/
 ipython_config.py
 
 # Images
-.nii
-.nii.gz
+*.nii
+*.nii.gz
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
