@@ -16,5 +16,7 @@ So, to the final Kaggle score, the SwinUNETR model with 10 epochs was the best.
 
 ## Important:
 
+All the data is in "notebooks".
+
 If you want to re-run the model, please make sure all paths are right to get the data and the models.
 I did not upload the data into this repository.
