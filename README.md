@@ -10,4 +10,6 @@ I tried to create a model concatenating the output of different models in the fo
 ![COMPETITION IPMED](https://github.com/mathparracho/PSCC_datachallenge/assets/58774388/d87ad654-631a-4a5a-9657-22fb34e9e356)
 
 I trained 3 different models to create this architecture and the creation class is in the notebook "experiment.ipynb"
-However turns out the model was very sensible to seed variations and it performed worse in comparison to the vanilla SwinUNETR.
+However turns out the model was very sensible to seed variations and it performed worse in comparison to the vanilla SwinUNETR. Frankly, I do not know the reason for this behavior but it is what it is.
+
+So, to the final Kaggle score, the SwinUNETR model with 10 epochs was the best.
