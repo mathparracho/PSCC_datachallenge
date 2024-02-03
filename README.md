@@ -13,3 +13,8 @@ I trained 3 different models to create this architecture and the creation class 
 However turns out the model was very sensible to seed variations and it performed worse in comparison to the vanilla SwinUNETR. Frankly, I do not know the reason for this behavior but it is what it is.
 
 So, to the final Kaggle score, the SwinUNETR model with 10 epochs was the best.
+
+## Important:
+
+If you want to re-run the model, please make sure all paths are right to get the data and the models.
+I did not upload the data into this repository.
