@@ -12,7 +12,7 @@ I tried to create a model concatenating the output of different models in the fo
 I trained 3 different models to create this architecture and the creation class is in the notebook "experiment.ipynb"
 However turns out the model was very sensible to seed variations and it performed worse in comparison to the vanilla SwinUNETR. Frankly, I do not know the reason for this behavior but it is what it is.
 
-So, to the final Kaggle score, the SwinUNETR model with 10 epochs was the best.
+So, to the final Kaggle score, the SwinUNETR model with 10 epochs was the best. And this is the model I uploaded in this repository
 
 ## Important:
 
