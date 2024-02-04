@@ -22,6 +22,8 @@ I organized the script that gave me the final score into a Jupyter Notebook in t
 
 In the folder "scripts" I uploaded all the files I used to test and create all my experiments - It is a mess! But experiments are just like that!
 
+All the rest is exact the same thing as the original repository for the hackaton
+
 ## Important:
 
 All the data is in "notebooks".
