@@ -1,6 +1,8 @@
 # Hackathon
 
-So, firstly I started with the idea of training a 3DUNET but I got several bad results.
+First, I used Pytorch with the framework MONAI to do all the data collection, processing, and modeling.
+
+So, I started with the idea of training a 3DUNET but I got several bad results.
 So, in my second model tentative, I went to the SwinUNETR. This one performed the best, however still not as good as the others.
 
 I was not able to think of an idea to use the lung segmentations to help somehow the model. 
