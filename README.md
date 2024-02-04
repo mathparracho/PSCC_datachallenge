@@ -16,6 +16,12 @@ However turns out the model was very sensible to seed variations and it performe
 
 So, to the final Kaggle score, the SwinUNETR model with 10 epochs was the best. And this is the model I uploaded in this repository
 
+## Files:
+
+I organized the script that gave me the final score into a Jupyter Notebook in the folder "notebooks". There you are going to find the organized scripts.
+
+In the folder "scripts" I uploaded all the files I used to test and create all my experiments - It is a mess! But experiments are just like that!
+
 ## Important:
 
 All the data is in "notebooks".
